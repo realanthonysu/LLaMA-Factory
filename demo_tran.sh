@@ -1,6 +1,6 @@
 CUDA_VISIBLE_DEVICES=0 python src/train_bash.py \
     --stage sft \
-    --model_name_or_path /models/chatglm3-6b/ \
+    --model_name_or_path /models/THUDM/chatglm3-6b/ \
     --do_train \
     --overwrite_output_dir \
     --dataset self_cognition \
